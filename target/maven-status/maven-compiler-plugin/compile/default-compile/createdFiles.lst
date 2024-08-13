@@ -1,0 +1,11 @@
+appium\com\pageObjectModels\mobileBrowser\CheckoutPage.class
+appium\com\pageObjectModels\HybridAppPage.class
+appium\com\pageObjectModels\mobileBrowser\LoginPage.class
+appium\com\pageObjectModels\CatalogPage.class
+appium\com\pageObjectModels\CartPage.class
+appium\com\utils\AndroidActions.class
+appium\com\pageObjectModels\FormPage.class
+appium\com\pageObjectModels\mobileBrowser\ProductCatalogPage.class
+appium\com\pageObjectModels\mobileBrowser\CartPage.class
+appium\com\pageObjectModels\mobileBrowser\OrderConfirmationPage.class
+appium\com\pageObjectModels\mobileBrowser\PDPPage.class

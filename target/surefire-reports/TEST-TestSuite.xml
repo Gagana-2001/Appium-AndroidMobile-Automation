@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="46.121" tests="26" errors="0" skipped="25" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\APPIUM-AUTOMATION\Appium Workspace\AppiumFramework-Android\target\test-classes;D:\APPIUM-AUTOMATION\Appium Workspace\AppiumFramework-Android\target\classes;C:\Users\Gagana.CM\.m2\repository\io\appium\java-client\9.2.3\java-client-9.2.3.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\Gagana.CM\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Gagana.CM\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Gagana.CM\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Gagana.CM\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\Gagana.CM\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Gagana.CM\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Gagana.CM\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.0\selenium-support-4.23.0.jar;C:\Users\Gagana.CM\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Gagana.CM\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Gagana.CM\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Gagana.CM\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Gagana.CM\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Gagana.CM\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Gagana.CM\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Gagana.CM\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.0\selenium-json-4.23.0.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\Gagana.CM\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Gagana.CM\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\Gagana.CM\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Gagana.CM\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Gagana.CM\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\Gagana.CM\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\Gagana.CM\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\Gagana.CM\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Gagana.CM\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Gagana.CM\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Gagana.CM\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Gagana.CM\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Gagana.CM\.m2\repository\io\qameta\allure\allure-testng\2.28.1\allure-testng-2.28.1.jar;C:\Users\Gagana.CM\.m2\repository\io\qameta\allure\allure-java-commons\2.28.1\allure-java-commons-2.28.1.jar;C:\Users\Gagana.CM\.m2\repository\io\qameta\allure\allure-model\2.28.1\allure-model-2.28.1.jar;C:\Users\Gagana.CM\.m2\repository\io\qameta\allure\allure-test-filter\2.28.1\allure-test-filter-2.28.1.jar;C:\Users\Gagana.CM\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\Gagana.CM\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\Gagana.CM\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\Gagana.CM\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\Gagana.CM\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Gagana.CM\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\Gagana.CM\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\Gagana.CM\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Gagana.CM\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Gagana.CM\AppData\Local\Temp\surefire7169461179027054089\surefirebooter-20240813140550452_3.jar C:\Users\Gagana.CM\AppData\Local\Temp\surefire7169461179027054089 2024-08-13T14-05-50_275-jvmRun1 surefire-20240813140550452_1tmp surefire_0-20240813140550452_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\APPIUM-AUTOMATION\Appium Workspace\AppiumFramework-Android\target\test-classes;D:\APPIUM-AUTOMATION\Appium Workspace\AppiumFramework-Android\target\classes;C:\Users\Gagana.CM\.m2\repository\io\appium\java-client\9.2.3\java-client-9.2.3.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\Gagana.CM\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Gagana.CM\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Gagana.CM\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Gagana.CM\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\Gagana.CM\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Gagana.CM\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Gagana.CM\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.0\selenium-support-4.23.0.jar;C:\Users\Gagana.CM\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Gagana.CM\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Gagana.CM\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Gagana.CM\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Gagana.CM\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Gagana.CM\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Gagana.CM\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Gagana.CM\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\Gagana.CM\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.0\selenium-json-4.23.0.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\Gagana.CM\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Gagana.CM\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\Gagana.CM\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Gagana.CM\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Gagana.CM\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\Gagana.CM\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\Gagana.CM\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\Gagana.CM\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Gagana.CM\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Gagana.CM\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Gagana.CM\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Gagana.CM\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Gagana.CM\.m2\repository\io\qameta\allure\allure-testng\2.28.1\allure-testng-2.28.1.jar;C:\Users\Gagana.CM\.m2\repository\io\qameta\allure\allure-java-commons\2.28.1\allure-java-commons-2.28.1.jar;C:\Users\Gagana.CM\.m2\repository\io\qameta\allure\allure-model\2.28.1\allure-model-2.28.1.jar;C:\Users\Gagana.CM\.m2\repository\io\qameta\allure\allure-test-filter\2.28.1\allure-test-filter-2.28.1.jar;C:\Users\Gagana.CM\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\Gagana.CM\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\Gagana.CM\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\Gagana.CM\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\Gagana.CM\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Gagana.CM\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\Gagana.CM\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\Gagana.CM\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Gagana.CM\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\Gagana.CM\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Gagana.CM"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\APPIUM-AUTOMATION\Appium Workspace\AppiumFramework-Android"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Gagana.CM\AppData\Local\Temp\surefire7169461179027054089\surefirebooter-20240813140550452_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.3+7-LTS-152"/>
+    <property name="user.name" value="Gagana.CM"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Gagana.CM\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Gagana.CM\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="D:\APPIUM-AUTOMATION\Appium Workspace\AppiumFramework-Android"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Tools\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;D:\Tools\allure-2.30.0\allure-2.30.0\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\nodejs\;C:\Users\Gagana.CM\AppData\Local\Android\Sdk\tools\bin;C:\Users\Gagana.CM\AppData\Local\Android\Sdk\tools;C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Gagana.CM\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-21\bin;C:\Users\Gagana.CM\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.3+7-LTS-152"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="launchApplication" classname="appium.com.testcases.FormPageTest" time="42.63">
+    <failure message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms &#10;Host info: host: &apos;IN-PF42S2SA&apos;, ip: &apos;192.168.31.114&apos;&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}]}]&#10;Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms 
+Host info: host: 'IN-PF42S2SA', ip: '192.168.31.114'
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}]}]
+Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:270)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:91)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:103)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+	at appium.com.common.CommonBaseTest.configureDriverForApp(CommonBaseTest.java:68)
+	at appium.com.baseTest.BaseTest.launchApplication(BaseTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[INFO ] 2024-08-13 14:05:52.365 [main] CommonBaseTest - Starting Appium Server
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Welcome to Appium v2.11.2
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Non-default server args:
+&amp#27;[38;5;112m[Appium]&amp#27;[0m { address: &amp#27;[32m'127.0.0.1'&amp#27;[39m }
+&amp#27;[38;5;112m[Appium]&amp#27;[0m The autodetected Appium home path: C:\Users\Gagana.CM\.appium
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Attempting to load driver uiautomator2...
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Requiring driver at C:\Users\Gagana.CM\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+&amp#27;[38;5;112m[Appium]&amp#27;[0m AndroidUiautomator2Driver has been successfully loaded in 8.150s
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Appium REST http interface listener started on http://127.0.0.1:4723
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Available drivers:
+&amp#27;[38;5;112m[Appium]&amp#27;[0m   - uiautomator2@3.7.4 (automationName 'UiAutomator2')
+&amp#27;[38;5;112m[Appium]&amp#27;[0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+&amp#27;[38;5;86m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/status&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;210m[AppiumDriver@ea1e]&amp#27;[0m Calling AppiumDriver.getStatus() with args: []
+&amp#27;[38;5;210m[AppiumDriver@ea1e]&amp#27;[0m Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.11.2"}}
+&amp#27;[38;5;86m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m7 ms - 111&amp#27;[39m &amp#27;[90m&amp#27;[39m
+[INFO ] 2024-08-13 14:06:10.079 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-13 14:06:10.095 [main] CommonBaseTest - Android driver Creation for Native Apps-Hybrid Apps
+&amp#27;[38;5;86m[HTTP]&amp#27;[0m Request idempotency key: 16bed189-07a2-44b5-8ed2-b0e2e2bbad7f
+&amp#27;[38;5;86m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session&amp#27;[39m &amp#27;[90m{"capabilities":{"firstMatch":[{"appium:chromedriverExecutable":"D:\\APPIUM-AUTOMATION\\Appium Workspace\\AppiumFramework-Android\\driver\\chromedriver.exe","appium:deviceName":"DeviceEmulator","platformName":"ANDROID","appium:automationName":"UIAutomator2","appium:app":"D:\\APPIUM-AUTOMATION\\Appium Workspace\\AppiumFramework-Android\\src\\test\\java\\appium\\com\\data\\General-Store.apk"}]}}&amp#27;[39m
+&amp#27;[38;5;210m[AppiumDriver@ea1e]&amp#27;[0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:chromedriverExecutable":"D:\\APPIUM-AUTOMATION\\Appium Workspace\\AppiumFramework-Android\\driver\\chromedriver.exe","appium:deviceName":"DeviceEmulator","platformName":"ANDROID","appium:automationName":"UIAutomator2","appium:app":"D:\\APPIUM-AUTOMATION\\Appium Workspace\\AppiumFramework-Android\\src\\test\\java\\appium\\com\\data\\General-Store.apk"}]}]
+&amp#27;[38;5;210m[AppiumDriver@ea1e]&amp#27;[0m Event 'newSessionRequested' logged at 1723538170432 (14:06:10 GMT+0530 (India Standard Time))
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'ANDROID'
+&amp#27;[38;5;112m[Appium]&amp#27;[0m The 'uiautomator2' driver was installed and matched caps.
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Will require it at C:\Users\Gagana.CM\.appium\node_modules\appium-uiautomator2-driver
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Requiring driver at C:\Users\Gagana.CM\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+&amp#27;[38;5;210m[AppiumDriver@ea1e]&amp#27;[0m Appium v2.11.2 creating new AndroidUiautomator2Driver (v3.7.4) session
+&amp#27;[38;5;210m[AppiumDriver@ea1e]&amp#27;[0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+&amp#27;[38;5;210m[AppiumDriver@ea1e]&amp#27;[0m Appium's BaseDriver version is 9.11.2
+&amp#27;[38;5;210m[AppiumDriver@ea1e]&amp#27;[0m AndroidUiautomator2Driver's BaseDriver version is 9.11.2
+&amp#27;[38;5;-94m[AndroidUiautomator2Driver@c95b]&amp#27;[0m undefined
+&amp#27;[38;5;-94m[AndroidUiautomator2Driver@c95b]&amp#27;[0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "ANDROID",
+    "appium:chromedriverExecutable": "D:\\APPIUM-AUTOMATION\\Appium Workspace\\AppiumFramework-Android\\driver\\chromedriver.exe",
+    "appium:deviceName": "DeviceEmulator",
+    "appium:automationName": "UIAutomator2",
+    "appium:app": "D:\\APPIUM-AUTOMATION\\Appium Workspace\\AppiumFramework-Android\\src\\test\\java\\appium\\com\\data\\General-Store.apk"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;-94m[AndroidUiautomator2Driver@c95b]&amp#27;[0m Session created with session id: d5f09b3a-99cd-4791-a2ac-255008474892
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Found 2 'build-tools' folders under 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk' (newest first):
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m     C:\Users\Gagana.CM\AppData\Local\Android\Sdk\build-tools\35.0.0
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m     C:\Users\Gagana.CM\AppData\Local\Android\Sdk\build-tools\34.0.0
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Using 'adb.exe' from 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;-94m[AndroidUiautomator2Driver@c95b]&amp#27;[0m Retrieving device list
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Trying to find connected Android devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Getting connected devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m No connected devices have been detected
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Could not find online devices
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Reconnecting adb (target offline)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;229m[ADB]&amp#27;[0m Running 'C:\Users\Gagana.CM\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;-94m[AndroidUiautomator2Driver@c95b]&amp#27;[0m Deleting UiAutomator2 session
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;210m[AppiumDriver@ea1e]&amp#27;[0m Event 'newSessionStarted' logged at 1723538193105 (14:06:33 GMT+0530 (India Standard Time))
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;210m[AppiumDriver@ea1e]&amp#27;[0m Encountered internal error running command: Error: Could not find a connected Android device in 20000ms
+    at ADB.getDevicesWithRetry (C:\Users\Gagana.CM\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-adb\lib\tools\system-calls.js:331:13)
+    at AndroidUiautomator2Driver.getDeviceInfoFromCaps (C:\Users\Gagana.CM\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\device\common.js:37:21)
+    at AndroidUiautomator2Driver.createSession (C:\Users\Gagana.CM\.appium\node_modules\appium-uiautomator2-driver\lib\driver.ts:365:30)
+    at AppiumDriver.createSession (C:\Users\Gagana.CM\AppData\Roaming\npm\node_modules\appium\lib\appium.js:731:35)
+&amp#27;[38;5;202m[d5f09b3a]&amp#27;[0m&amp#27;[38;5;86m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session &amp#27;[39m&amp#27;[31m500&amp#27;[39m &amp#27;[90m22853 ms - 678&amp#27;[39m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="appium.com.testcases.FormPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="appium.com.testcases.FormPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="appium.com.testcases.FormPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="selectCountry" classname="appium.com.testcases.FormPageTest" time="0.0">
+    <skipped message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms &#10;Host info: host: &apos;IN-PF42S2SA&apos;, ip: &apos;192.168.31.114&apos;&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}]}]&#10;Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}"/>
+  </testcase>
+  <testcase name="setName" classname="appium.com.testcases.FormPageTest" time="0.0">
+    <skipped message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms &#10;Host info: host: &apos;IN-PF42S2SA&apos;, ip: &apos;192.168.31.114&apos;&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}]}]&#10;Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}"/>
+  </testcase>
+  <testcase name="selectGender" classname="appium.com.testcases.FormPageTest" time="0.0">
+    <skipped message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms &#10;Host info: host: &apos;IN-PF42S2SA&apos;, ip: &apos;192.168.31.114&apos;&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}]}]&#10;Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}"/>
+  </testcase>
+  <testcase name="submitForm" classname="appium.com.testcases.FormPageTest" time="0.0">
+    <skipped message="Method appium.com.testcases.FormPageTest.submitForm() on instance appium.com.testcases.FormPageTest@4879dfad depends on not successfully finished methods &#10;[appium.com.testcases.FormPageTest.setName() on instance appium.com.testcases.FormPageTest@4879dfad]"/>
+  </testcase>
+  <testcase name="tearDown" classname="appium.com.testcases.FormPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="appium.com.testcases.CatalogPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="addItemToCart" classname="appium.com.testcases.CatalogPageTest" time="0.0">
+    <skipped message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms &#10;Host info: host: &apos;IN-PF42S2SA&apos;, ip: &apos;192.168.31.114&apos;&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}]}]&#10;Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}"/>
+  </testcase>
+  <testcase name="goToCartPage" classname="appium.com.testcases.CatalogPageTest" time="0.0">
+    <skipped message="Method appium.com.testcases.CatalogPageTest.goToCartPage() on instance appium.com.testcases.CatalogPageTest@5629510 depends on not successfully finished methods &#10;[appium.com.testcases.CatalogPageTest.addItemToCart() on instance appium.com.testcases.CatalogPageTest@5629510]"/>
+  </testcase>
+  <testcase name="setUp" classname="appium.com.testcases.CartPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="appium.com.testcases.CartPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="appium.com.testcases.CartPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="appium.com.testcases.CartPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyTheCartForProduct" classname="appium.com.testcases.CartPageTest" time="0.0">
+    <skipped message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms &#10;Host info: host: &apos;IN-PF42S2SA&apos;, ip: &apos;192.168.31.114&apos;&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}]}]&#10;Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}"/>
+  </testcase>
+  <testcase name="verifySumOfProductPrice" classname="appium.com.testcases.CartPageTest" time="0.0">
+    <skipped message="Method appium.com.testcases.CartPageTest.verifySumOfProductPrice() on instance appium.com.testcases.CartPageTest@4df5bcb4 depends on not successfully finished methods &#10;[appium.com.testcases.CartPageTest.verifyTheCartForProduct() on instance appium.com.testcases.CartPageTest@4df5bcb4]"/>
+  </testcase>
+  <testcase name="verifyTheTotalAmountDisplayed" classname="appium.com.testcases.CartPageTest" time="0.0">
+    <skipped message="Method appium.com.testcases.CartPageTest.verifyTheTotalAmountDisplayed() on instance appium.com.testcases.CartPageTest@4df5bcb4 depends on not successfully finished methods &#10;[appium.com.testcases.CartPageTest.verifySumOfProductPrice() on instance appium.com.testcases.CartPageTest@4df5bcb4]"/>
+  </testcase>
+  <testcase name="verifyTermsAndConditions" classname="appium.com.testcases.CartPageTest" time="0.0">
+    <skipped message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms &#10;Host info: host: &apos;IN-PF42S2SA&apos;, ip: &apos;192.168.31.114&apos;&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}]}]&#10;Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}"/>
+  </testcase>
+  <testcase name="applyDiscount" classname="appium.com.testcases.CartPageTest" time="0.0">
+    <skipped message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms &#10;Host info: host: &apos;IN-PF42S2SA&apos;, ip: &apos;192.168.31.114&apos;&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}]}]&#10;Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}"/>
+  </testcase>
+  <testcase name="placeOrder" classname="appium.com.testcases.CartPageTest" time="0.0">
+    <skipped message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms &#10;Host info: host: &apos;IN-PF42S2SA&apos;, ip: &apos;192.168.31.114&apos;&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}]}]&#10;Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}"/>
+  </testcase>
+  <testcase name="setUp" classname="appium.com.testcases.HybridAppTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="switchContext" classname="appium.com.testcases.HybridAppTest" time="0.0">
+    <skipped message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms &#10;Host info: host: &apos;IN-PF42S2SA&apos;, ip: &apos;192.168.31.114&apos;&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}]}]&#10;Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:deviceName: DeviceEmulator, platformName: ANDROID}"/>
+  </testcase>
+  <testcase name="performActionOnWeb" classname="appium.com.testcases.HybridAppTest" time="0.0">
+    <skipped message="Method appium.com.testcases.HybridAppTest.performActionOnWeb() on instance appium.com.testcases.HybridAppTest@12c7a01b depends on not successfully finished methods &#10;[appium.com.testcases.HybridAppTest.switchContext() on instance appium.com.testcases.HybridAppTest@12c7a01b]"/>
+  </testcase>
+  <testcase name="switchBackToNative" classname="appium.com.testcases.HybridAppTest" time="0.0">
+    <skipped message="Method appium.com.testcases.HybridAppTest.switchBackToNative() on instance appium.com.testcases.HybridAppTest@12c7a01b depends on not successfully finished methods &#10;[appium.com.testcases.HybridAppTest.performActionOnWeb() on instance appium.com.testcases.HybridAppTest@12c7a01b]"/>
+  </testcase>
+</testsuite>

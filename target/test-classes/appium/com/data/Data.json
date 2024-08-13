@@ -1,0 +1,23 @@
+[
+{
+ 	"CountryName" : "Argentina",
+ 	"Name":"Gagana",
+	"Gender": "female",
+ 	"Product1":"Air Jordan 4 Retro",
+ 	"Product2": "Air Jordan 1 Mid SE",
+ 	"WebContext" :"WEBVIEW_com.androidsample.generalstore",
+ 	"text":"Valtech",
+ 	"NativeContext":"NATIVE_APP"
+ 	
+},
+{
+	"CountryName" : "India",
+	"Name":"Ram",
+	"Gender": "male",
+	"Product1":"Air Jordan 4 Retro",
+	"Product2": "Air Jordan 1 Mid SE",
+	"WebContext" :"WEBVIEW_com.androidsample.generalstore",
+ 	"text":"Valtech",
+ 	"NativeContext":"NATIVE_APP"
+}
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="appium.com.common.ListenersTest" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="appium.com.testcases.mobileBrowser.LoginPageTest" />
+			<class
+				name="appium.com.testcases.mobileBrowser.ProductCatalogPageTest" />
+			<class name="appium.com.testcases.mobileBrowser.PDPPageTest" />
+			<class name="appium.com.testcases.mobileBrowser.CartPageTest" />
+			<class name="appium.com.testcases.mobileBrowser.CheckoutPageTest" />
+			<class
+				name="appium.com.testcases.mobileBrowser.OrderConfirmationPageTest" />
+		</classes>
+	</test>
+</suite> 

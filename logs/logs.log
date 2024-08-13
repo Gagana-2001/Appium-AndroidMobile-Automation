@@ -1,0 +1,414 @@
+[INFO ] 2024-08-12 15:55:31.810 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 15:56:01.788 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 15:56:05.814 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-12 15:56:05.847 [main] CommonBaseTest - Android driver Creation for Native Apps-Hybrid Apps
+[DEBUG] 2024-08-12 15:56:16.446 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 15:56:16.451 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 15:56:16.870 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 15:56:29.695 [main] CommonBaseTest - Selecting country {}Argentina
+[DEBUG] 2024-08-12 15:56:29.779 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 15:56:29.782 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 15:56:30.060 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 15:56:31.125 [main] CommonBaseTest - Specifying name as {}Gagana
+[DEBUG] 2024-08-12 15:56:31.166 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 15:56:31.187 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 15:56:31.294 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 15:56:31.594 [main] CommonBaseTest - Specifying gender as {}female
+[DEBUG] 2024-08-12 15:56:31.638 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 15:56:31.639 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 15:56:31.743 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 15:56:32.717 [main] CommonBaseTest - Submitting form
+[INFO ] 2024-08-12 15:56:32.864 [main] CommonBaseTest - Closing Driver connection
+[INFO ] 2024-08-12 16:08:11.443 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 16:08:44.757 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 16:08:48.821 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-12 16:08:48.847 [main] CommonBaseTest - Android driver Creation for Native Apps-Hybrid Apps
+[INFO ] 2024-08-12 16:08:57.613 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 16:08:57.633 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-12 16:08:57.634 [main] CommonBaseTest - Android driver Creation for Mobile Browser application
+[INFO ] 2024-08-12 16:13:07.559 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 16:13:11.271 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-12 16:13:11.296 [main] CommonBaseTest - Android driver Creation for Native Apps-Hybrid Apps
+[INFO ] 2024-08-12 16:13:21.007 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 16:13:21.026 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-12 16:13:21.027 [main] CommonBaseTest - Android driver Creation for Mobile Browser application
+[INFO ] 2024-08-12 16:33:16.559 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 16:33:23.349 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-12 16:33:23.496 [main] CommonBaseTest - Android driver Creation for Native Apps-Hybrid Apps
+[DEBUG] 2024-08-12 16:33:38.612 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:33:38.621 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:33:40.500 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:33:51.907 [main] CommonBaseTest - Selecting country {}Argentina
+[DEBUG] 2024-08-12 16:33:51.998 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:33:52.001 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:33:52.078 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:33:53.508 [main] CommonBaseTest - Specifying name as {}Gagana
+[DEBUG] 2024-08-12 16:33:53.554 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:33:53.555 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:33:53.590 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:33:53.900 [main] CommonBaseTest - Specifying gender as {}female
+[DEBUG] 2024-08-12 16:33:53.998 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:33:54.001 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:33:54.158 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:33:55.528 [main] CommonBaseTest - Submitting form
+[INFO ] 2024-08-12 16:33:58.893 [main] CommonBaseTest - Adding Products to cart
+[INFO ] 2024-08-12 16:34:02.057 [main] CommonBaseTest - Navigating to cart Page
+[DEBUG] 2024-08-12 16:34:02.074 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:34:02.075 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:34:02.101 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:34:02.238 [main] CommonBaseTest - Verify the cart for product {}Air Jordan 4 Retro
+[INFO ] 2024-08-12 16:34:02.332 [main] CommonBaseTest - Verify the cart for product {}Air Jordan 1 Mid SE
+[DEBUG] 2024-08-12 16:34:02.351 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:34:02.353 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:34:02.374 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:34:02.913 [main] CommonBaseTest - Verifying the total prices of products
+[DEBUG] 2024-08-12 16:34:02.943 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:34:02.945 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:34:02.991 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:34:03.125 [main] CommonBaseTest - Verifying Total price displayed with sum of prices of products
+[DEBUG] 2024-08-12 16:34:03.147 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:34:03.150 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:34:03.191 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:34:07.508 [main] CommonBaseTest - Reading Terms and conditions
+[DEBUG] 2024-08-12 16:34:07.567 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:34:07.569 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:34:07.659 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:34:08.438 [main] CommonBaseTest - Applying discounts
+[DEBUG] 2024-08-12 16:34:08.518 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:34:08.521 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:34:08.641 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:34:19.293 [main] CommonBaseTest - Submitting Order
+[DEBUG] 2024-08-12 16:34:19.339 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:34:19.341 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:34:19.435 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:34:28.799 [main] CommonBaseTest - Closing Driver connection
+[INFO ] 2024-08-12 16:53:42.703 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 16:53:49.670 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-12 16:53:49.671 [main] CommonBaseTest - Android driver Creation for Mobile Browser application
+[INFO ] 2024-08-12 16:54:10.748 [main] CommonBaseTest - Fetching data from excel
+[DEBUG] 2024-08-12 16:54:11.078 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:54:11.081 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:54:16.560 [main] CommonBaseTest - Logging into application with valid username {} and password {} standard_usersecret_sauce
+[DEBUG] 2024-08-12 16:54:16.629 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:54:16.631 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:54:16.664 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:54:19.596 [main] CommonBaseTest - Finding for product {} Sauce Labs Backpack
+[DEBUG] 2024-08-12 16:54:19.615 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:54:19.616 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:54:19.648 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:54:20.085 [main] CommonBaseTest - Veriying PDP page for product {} Sauce Labs Backpack
+[DEBUG] 2024-08-12 16:54:20.102 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:54:20.104 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:54:20.117 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:54:20.453 [main] CommonBaseTest - Adding Product to Cart
+[DEBUG] 2024-08-12 16:54:20.473 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:54:20.476 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:54:20.520 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:54:21.242 [main] CommonBaseTest - Navigating to Cart Page
+[DEBUG] 2024-08-12 16:54:21.267 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:54:21.268 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:54:21.281 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:54:21.731 [main] CommonBaseTest - Verifying cart for product {} Sauce Labs Backpack
+[DEBUG] 2024-08-12 16:54:21.749 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:54:21.749 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:54:21.761 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:54:22.188 [main] CommonBaseTest - Navigating to checkoutPage
+[DEBUG] 2024-08-12 16:54:22.215 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:54:22.217 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:54:22.239 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:54:24.841 [main] CommonBaseTest - Entering checkout details FirstName{}, Lastname{},ZipCode {} GaganaCM560090
+[DEBUG] 2024-08-12 16:54:24.852 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:54:24.852 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:54:24.860 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:54:25.328 [main] CommonBaseTest - Continuing to place order
+[DEBUG] 2024-08-12 16:54:25.342 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:54:25.344 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:54:25.360 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:54:25.763 [main] CommonBaseTest - Verifying the product {} in checkout pageSauce Labs Backpack
+[DEBUG] 2024-08-12 16:54:25.778 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:54:25.779 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:54:25.788 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 16:54:26.250 [main] CommonBaseTest - Placing an order
+[DEBUG] 2024-08-12 16:54:26.265 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 16:54:26.266 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 16:54:26.978 [main] CommonBaseTest - Closing Driver connection
+[INFO ] 2024-08-12 16:59:35.192 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 16:59:46.835 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-12 16:59:46.835 [main] CommonBaseTest - Android driver Creation for Mobile Browser application
+[INFO ] 2024-08-12 17:00:10.932 [main] CommonBaseTest - Fetching data from excel
+[DEBUG] 2024-08-12 17:00:11.256 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:00:11.263 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:00:17.847 [main] CommonBaseTest - Logging into application with valid username {} and password {} standard_usersecret_sauce
+[DEBUG] 2024-08-12 17:00:17.897 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:00:17.899 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:00:17.941 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:00:21.137 [main] CommonBaseTest - Finding for product {} Sauce Labs Backpack
+[DEBUG] 2024-08-12 17:00:21.156 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:00:21.158 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:00:21.190 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:00:21.774 [main] CommonBaseTest - Veriying PDP page for product {} Sauce Labs Backpack
+[DEBUG] 2024-08-12 17:00:21.803 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:00:21.806 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:00:21.848 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:00:22.424 [main] CommonBaseTest - Adding Product to Cart
+[DEBUG] 2024-08-12 17:00:22.441 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:00:22.442 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:00:22.476 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:00:23.606 [main] CommonBaseTest - Navigating to Cart Page
+[DEBUG] 2024-08-12 17:00:23.628 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:00:23.631 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:00:23.665 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:00:24.294 [main] CommonBaseTest - Verifying cart for product {} Sauce Labs Backpack
+[DEBUG] 2024-08-12 17:00:24.315 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:00:24.317 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:00:24.359 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:00:24.910 [main] CommonBaseTest - Navigating to checkoutPage
+[DEBUG] 2024-08-12 17:00:24.927 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:00:24.928 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:00:24.973 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:00:31.923 [main] CommonBaseTest - Entering checkout details FirstName{}, Lastname{},ZipCode {} GaganaCM560090
+[DEBUG] 2024-08-12 17:00:31.943 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:00:31.946 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:00:31.986 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:00:32.723 [main] CommonBaseTest - Continuing to place order
+[DEBUG] 2024-08-12 17:00:32.739 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:00:32.742 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:00:32.787 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:00:33.572 [main] CommonBaseTest - Verifying the product {} in checkout pageSauce Labs Backpack
+[DEBUG] 2024-08-12 17:00:33.588 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:00:33.589 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:00:33.611 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:00:34.203 [main] CommonBaseTest - Placing an order
+[DEBUG] 2024-08-12 17:00:34.219 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:00:34.220 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:00:35.731 [main] CommonBaseTest - Closing Driver connection
+[INFO ] 2024-08-12 17:06:31.167 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 17:06:37.472 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-12 17:06:37.557 [main] CommonBaseTest - Android driver Creation for Native Apps-Hybrid Apps
+[DEBUG] 2024-08-12 17:06:49.633 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:06:49.635 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:06:50.379 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:00.167 [main] CommonBaseTest - Selecting country {}Argentina
+[DEBUG] 2024-08-12 17:07:00.202 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:07:00.205 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:07:00.253 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:01.308 [main] CommonBaseTest - Specifying name as {}Gagana
+[DEBUG] 2024-08-12 17:07:01.332 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:07:01.334 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:07:01.376 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:01.852 [main] CommonBaseTest - Specifying gender as {}female
+[DEBUG] 2024-08-12 17:07:01.881 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:07:01.882 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:07:01.937 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:02.841 [main] CommonBaseTest - Submitting form
+[INFO ] 2024-08-12 17:07:05.676 [main] CommonBaseTest - Adding Products to cart
+[INFO ] 2024-08-12 17:07:08.849 [main] CommonBaseTest - Navigating to cart Page
+[DEBUG] 2024-08-12 17:07:08.871 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:07:08.874 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:07:08.905 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:09.011 [main] CommonBaseTest - Verify the cart for product {}Air Jordan 4 Retro
+[INFO ] 2024-08-12 17:07:09.138 [main] CommonBaseTest - Verify the cart for product {}Air Jordan 1 Mid SE
+[DEBUG] 2024-08-12 17:07:09.162 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:07:09.164 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:07:09.201 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:09.413 [main] CommonBaseTest - Verifying the total prices of products
+[DEBUG] 2024-08-12 17:07:09.438 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:07:09.440 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:07:09.477 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:09.565 [main] CommonBaseTest - Verifying Total price displayed with sum of prices of products
+[DEBUG] 2024-08-12 17:07:09.588 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:07:09.590 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:07:09.622 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:13.156 [main] CommonBaseTest - Reading Terms and conditions
+[DEBUG] 2024-08-12 17:07:13.176 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:07:13.178 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:07:13.198 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:13.836 [main] CommonBaseTest - Applying discounts
+[DEBUG] 2024-08-12 17:07:13.860 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:07:13.862 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:07:13.884 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:24.634 [main] CommonBaseTest - Submitting Order
+[DEBUG] 2024-08-12 17:07:24.649 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:07:24.651 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:07:24.674 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:27.113 [main] CommonBaseTest - Switching to {} web contextWEBVIEW_com.androidsample.generalstore
+[DEBUG] 2024-08-12 17:07:27.136 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:07:27.138 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:07:27.165 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:28.969 [main] CommonBaseTest - Browsing for text {} Valtech
+[DEBUG] 2024-08-12 17:07:28.990 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:07:28.992 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:07:29.015 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:07:32.485 [main] CommonBaseTest - Switching back to {} native contextNATIVE_APP
+[INFO ] 2024-08-12 17:07:33.275 [main] CommonBaseTest - Closing Driver connection
+[INFO ] 2024-08-12 17:11:43.046 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 17:11:50.079 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-12 17:11:50.079 [main] CommonBaseTest - Android driver Creation for Mobile Browser application
+[INFO ] 2024-08-12 17:12:14.397 [main] CommonBaseTest - Fetching data from excel
+[DEBUG] 2024-08-12 17:12:14.759 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:12:14.763 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:12:21.659 [main] CommonBaseTest - Logging into application with valid username {} and password {} standard_usersecret_sauce
+[DEBUG] 2024-08-12 17:12:21.711 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:12:21.714 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:12:21.765 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:12:24.796 [main] CommonBaseTest - Finding for product {} Sauce Labs Backpack
+[DEBUG] 2024-08-12 17:12:24.818 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:12:24.820 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:12:24.858 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:12:25.519 [main] CommonBaseTest - Veriying PDP page for product {} Sauce Labs Backpack
+[DEBUG] 2024-08-12 17:12:25.548 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:12:25.550 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:12:25.602 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:12:26.138 [main] CommonBaseTest - Adding Product to Cart
+[DEBUG] 2024-08-12 17:12:26.176 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:12:26.177 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:12:26.208 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:12:28.147 [main] CommonBaseTest - Navigating to Cart Page
+[DEBUG] 2024-08-12 17:12:28.172 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:12:28.175 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:12:28.213 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:12:28.804 [main] CommonBaseTest - Verifying cart for product {} Sauce Labs Backpack
+[DEBUG] 2024-08-12 17:12:28.828 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:12:28.830 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:12:28.863 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:12:29.324 [main] CommonBaseTest - Navigating to checkoutPage
+[DEBUG] 2024-08-12 17:12:29.346 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:12:29.348 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:12:29.393 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:12:35.617 [main] CommonBaseTest - Entering checkout details FirstName{}, Lastname{},ZipCode {} GaganaCM560090
+[DEBUG] 2024-08-12 17:12:35.638 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:12:35.641 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:12:35.670 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:12:36.675 [main] CommonBaseTest - Continuing to place order
+[DEBUG] 2024-08-12 17:12:36.693 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:12:36.695 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:12:36.730 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:12:37.148 [main] CommonBaseTest - Verifying the product {} in checkout pageSauce Labs Backpack
+[DEBUG] 2024-08-12 17:12:37.165 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:12:37.167 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:12:37.190 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:12:37.999 [main] CommonBaseTest - Placing an order
+[DEBUG] 2024-08-12 17:12:38.014 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:12:38.016 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:12:39.314 [main] CommonBaseTest - Closing Driver connection
+[INFO ] 2024-08-12 17:13:07.472 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 17:13:13.438 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-12 17:13:13.502 [main] CommonBaseTest - Android driver Creation for Native Apps-Hybrid Apps
+[DEBUG] 2024-08-12 17:13:28.759 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:13:28.766 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:13:29.466 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:13:40.210 [main] CommonBaseTest - Selecting country {}Argentina
+[DEBUG] 2024-08-12 17:13:40.266 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:13:40.268 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:13:40.313 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:13:41.432 [main] CommonBaseTest - Specifying name as {}Gagana
+[DEBUG] 2024-08-12 17:13:41.458 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:13:41.461 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:13:41.505 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:13:41.702 [main] CommonBaseTest - Specifying gender as {}female
+[DEBUG] 2024-08-12 17:13:41.736 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:13:41.738 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:13:41.804 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:13:42.851 [main] CommonBaseTest - Submitting form
+[INFO ] 2024-08-12 17:13:46.286 [main] CommonBaseTest - Adding Products to cart
+[INFO ] 2024-08-12 17:13:49.485 [main] CommonBaseTest - Navigating to cart Page
+[DEBUG] 2024-08-12 17:13:49.498 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:13:49.499 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:13:49.511 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:13:49.637 [main] CommonBaseTest - Verify the cart for product {}Air Jordan 4 Retro
+[INFO ] 2024-08-12 17:13:49.713 [main] CommonBaseTest - Verify the cart for product {}Air Jordan 1 Mid SE
+[DEBUG] 2024-08-12 17:13:49.724 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:13:49.725 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:13:49.737 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:13:49.890 [main] CommonBaseTest - Verifying the total prices of products
+[DEBUG] 2024-08-12 17:13:49.911 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:13:49.912 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:13:49.955 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:13:50.048 [main] CommonBaseTest - Verifying Total price displayed with sum of prices of products
+[DEBUG] 2024-08-12 17:13:50.070 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:13:50.073 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:13:50.104 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:13:53.919 [main] CommonBaseTest - Reading Terms and conditions
+[DEBUG] 2024-08-12 17:13:54.004 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:13:54.005 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:13:54.060 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:13:54.623 [main] CommonBaseTest - Applying discounts
+[DEBUG] 2024-08-12 17:13:54.656 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:13:54.658 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:13:54.709 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:14:05.508 [main] CommonBaseTest - Submitting Order
+[DEBUG] 2024-08-12 17:14:05.526 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:14:05.527 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:14:05.553 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:14:09.631 [main] CommonBaseTest - Switching to {} web contextWEBVIEW_com.androidsample.generalstore
+[DEBUG] 2024-08-12 17:14:09.645 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:14:09.646 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:14:09.660 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:14:12.253 [main] CommonBaseTest - Browsing for text {} Valtech
+[DEBUG] 2024-08-12 17:14:12.271 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:14:12.272 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:14:12.293 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:14:15.453 [main] CommonBaseTest - Switching back to {} native contextNATIVE_APP
+[INFO ] 2024-08-12 17:14:16.269 [main] CommonBaseTest - Closing Driver connection
+[INFO ] 2024-08-12 17:14:30.278 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-12 17:14:35.875 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-12 17:14:35.900 [main] CommonBaseTest - Android driver Creation for Native Apps-Hybrid Apps
+[DEBUG] 2024-08-12 17:14:46.553 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:14:46.557 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:14:47.151 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:14:58.933 [main] CommonBaseTest - Selecting country {}Argentina
+[DEBUG] 2024-08-12 17:14:58.996 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:14:58.998 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:14:59.069 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:15:00.057 [main] CommonBaseTest - Specifying name as {}Gagana
+[DEBUG] 2024-08-12 17:15:00.078 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:15:00.081 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:15:00.115 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:15:00.391 [main] CommonBaseTest - Specifying gender as {}female
+[DEBUG] 2024-08-12 17:15:00.420 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:15:00.422 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:15:00.505 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:15:02.365 [main] CommonBaseTest - Submitting form
+[INFO ] 2024-08-12 17:15:04.763 [main] CommonBaseTest - Adding Products to cart
+[INFO ] 2024-08-12 17:15:07.945 [main] CommonBaseTest - Navigating to cart Page
+[DEBUG] 2024-08-12 17:15:07.971 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:15:07.973 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:15:08.009 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:15:08.117 [main] CommonBaseTest - Verify the cart for product {}Air Jordan 4 Retro
+[INFO ] 2024-08-12 17:15:08.239 [main] CommonBaseTest - Verify the cart for product {}Air Jordan 1 Mid SE
+[DEBUG] 2024-08-12 17:15:08.249 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:15:08.250 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:15:08.265 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:15:08.428 [main] CommonBaseTest - Verifying the total prices of products
+[DEBUG] 2024-08-12 17:15:08.438 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:15:08.439 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:15:08.452 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:15:08.508 [main] CommonBaseTest - Verifying Total price displayed with sum of prices of products
+[DEBUG] 2024-08-12 17:15:08.518 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:15:08.518 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:15:08.537 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:15:12.265 [main] CommonBaseTest - Reading Terms and conditions
+[DEBUG] 2024-08-12 17:15:12.277 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:15:12.278 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:15:12.292 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:15:13.006 [main] CommonBaseTest - Applying discounts
+[DEBUG] 2024-08-12 17:15:13.035 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:15:13.036 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:15:13.054 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:15:23.947 [main] CommonBaseTest - Submitting Order
+[DEBUG] 2024-08-12 17:15:23.975 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:15:23.977 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:15:24.015 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:15:26.329 [main] CommonBaseTest - Switching to {} web contextWEBVIEW_com.androidsample.generalstore
+[DEBUG] 2024-08-12 17:15:26.341 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:15:26.342 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:15:26.358 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:15:27.932 [main] CommonBaseTest - Browsing for text {} Valtech
+[DEBUG] 2024-08-12 17:15:27.947 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-08-12 17:15:27.948 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-08-12 17:15:27.968 [main] CommonBaseTest - Fetching data from excel
+[INFO ] 2024-08-12 17:15:30.578 [main] CommonBaseTest - Switching back to {} native contextNATIVE_APP
+[INFO ] 2024-08-12 17:15:31.368 [main] CommonBaseTest - Closing Driver connection
+[INFO ] 2024-08-13 14:05:52.365 [main] CommonBaseTest - Starting Appium Server
+[INFO ] 2024-08-13 14:06:10.079 [main] CommonBaseTest - Staring UiAutomator2Options
+[INFO ] 2024-08-13 14:06:10.095 [main] CommonBaseTest - Android driver Creation for Native Apps-Hybrid Apps

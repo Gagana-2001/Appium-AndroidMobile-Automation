@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="appium.com.common.ListenersTest"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="appium.com.testcases.CartPageTest">
+        <methods>
+          <include name="placeOrder"/>
+          <include name="verifySumOfProductPrice"/>
+          <include name="launchApplication"/>
+          <include name="verifyTheCartForProduct"/>
+          <include name="verifyTermsAndConditions"/>
+          <include name="applyDiscount"/>
+          <include name="setUp"/>
+          <include name="verifyTheTotalAmountDisplayed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- appium.com.testcases.CartPageTest -->
+      <class name="appium.com.testcases.HybridAppTest">
+        <methods>
+          <include name="switchBackToNative"/>
+          <include name="launchApplication"/>
+          <include name="switchContext"/>
+          <include name="setUp"/>
+          <include name="performActionOnWeb"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- appium.com.testcases.HybridAppTest -->
+      <class name="appium.com.testcases.FormPageTest">
+        <methods>
+          <include name="setName"/>
+          <include name="launchApplication"/>
+          <include name="selectCountry"/>
+          <include name="submitForm"/>
+          <include name="selectGender"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- appium.com.testcases.FormPageTest -->
+      <class name="appium.com.testcases.CatalogPageTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="addItemToCart"/>
+          <include name="setUp"/>
+          <include name="goToCartPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- appium.com.testcases.CatalogPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

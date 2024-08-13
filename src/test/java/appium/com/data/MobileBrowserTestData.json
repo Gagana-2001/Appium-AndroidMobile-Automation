@@ -1,0 +1,11 @@
+[
+{
+	"UserName" : "standard_user",
+	"Password" : "secret_sauce",
+	"ProductName" : "Sauce Labs Backpack",
+	"FirstName" : "Gagana",
+	"LastName" : "CM",
+	"ZipCode" : "560090",
+	"ConfMsg" : "Thank you for your order!"
+}
+]
