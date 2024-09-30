@@ -29,7 +29,7 @@ public class HybridAppTest extends BaseTest {
 	}
 
 	@Test(priority = 2, dependsOnMethods = "switchContext")
-	public void performActionOnWeb() {
+	public void performActionOnWeb() throws InterruptedException {
 		String text = dataMap.get("Text");
 		hybridAppPage.browserSearch(text);
 		log.info("Browsing for text {} " + text);

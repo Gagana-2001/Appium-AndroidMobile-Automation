@@ -8,7 +8,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import appium.com.baseTest.BaseTest;
-import appium.com.common.Retry;
 import appium.com.pageObjectModels.CartPage;
 import appium.com.pageObjectModels.HybridAppPage;
 

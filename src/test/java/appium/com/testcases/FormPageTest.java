@@ -21,7 +21,7 @@ public class FormPageTest extends BaseTest {
 	}
 
 	@Test(priority = 1)
-	public void selectCountry() throws IOException {
+	public void selectCountry() throws IOException, InterruptedException {
 		String countryName = dataMap.get("CountryName");
 		formPage.selectCountry(countryName);
 		log.info("Selecting country {}" + countryName);

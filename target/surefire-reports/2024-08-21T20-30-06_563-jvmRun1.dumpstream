@@ -1,0 +1,9 @@
+# Created at 2024-08-21T20:30:54.605
+An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [3a47b688-4fd3-4cb0-96a5-f4344f4b7bff, screenshot {}]
+Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:databaseEnabled: false, appium:desired: {app: D:\APPIUM-AUTOMATION\Appium..., automationName: UIAutomator2, chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., deviceName: Gagana, platformName: ANDROID, platformVersion: 10, udid: f6480ff2}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 9 Pro, appium:deviceName: f6480ff2, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: f6480ff2, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 10, appium:statBarHeight: 102, appium:takesScreenshot: true, appium:udid: f6480ff2, appium:viewportRect: {height: 2298, left: 0, top: 102, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 3a47b688-4fd3-4cb0-96a5-f4344f4b7bff
+

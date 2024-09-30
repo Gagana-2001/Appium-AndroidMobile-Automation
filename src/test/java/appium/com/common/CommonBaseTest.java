@@ -63,10 +63,10 @@ public class CommonBaseTest {
 		}
 
 		options.setApp(System.getProperty("user.dir") + "\\src\\test\\java\\appium\\com\\data\\General-Store.apk");
-		options.setChromedriverExecutable(System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
+		options.setChromedriverExecutable(System.getProperty("user.dir") + "\\driver\\NativeApp\\chromedriver.exe");
 		log.info("Android driver Creation for Native Apps-Hybrid Apps");
 		driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
 		return driver;
 	}
@@ -83,7 +83,7 @@ public class CommonBaseTest {
 			options.setDeviceName(prop.getProperty("VirtualDeviceName"));
 		}
 
-		options.setChromedriverExecutable(System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
+		options.setChromedriverExecutable(System.getProperty("user.dir") + "\\driver\\MobileBrowser\\chromedriver.exe");
 		options.setCapability("browserName", "Chrome");
 		log.info("Android driver Creation for Mobile Browser application");
 		driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);

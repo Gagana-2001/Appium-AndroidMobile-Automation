@@ -34,10 +34,11 @@ public class HybridAppPage extends AndroidActions {
 		driver.context(con);
 	}
 
-	public void browserSearch(String word) {
+	public void browserSearch(String word) throws InterruptedException {
 		waitForWebElementToAppear(searchField);
 		searchField.sendKeys(word);
 		searchField.sendKeys(Keys.ENTER);
+		Thread.sleep(5000);
 	}
 
 	public void switchBackToNativeApp(String context) {

@@ -4,109 +4,15 @@
   <listeners>
     <listener class-name="appium.com.common.ListenersTest"/>
   </listeners>
-  <test thread-count="5" name="NativeApp(failed)">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="appium.com.testcases.CatalogPageTest">
+      <class name="appium.com.standAloneTest.EcommerceTest">
         <methods>
+          <include name="placeOrder" invocation-numbers="0 1"/>
           <include name="launchApplication"/>
-          <include name="addItemToCart"/>
-          <include name="setUp"/>
-          <include name="goToCartPage"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- appium.com.testcases.CatalogPageTest -->
-      <class name="appium.com.testcases.CartPageTest">
-        <methods>
-          <include name="placeOrder"/>
-          <include name="verifySumOfProductPrice"/>
-          <include name="launchApplication"/>
-          <include name="verifyTheCartForProduct"/>
-          <include name="applyDiscount"/>
-          <include name="verifyTermsAndConditions"/>
-          <include name="setUp"/>
-          <include name="verifyTheTotalAmountDisplayed"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- appium.com.testcases.CartPageTest -->
-      <class name="appium.com.testcases.FormPageTest">
-        <methods>
-          <include name="setName"/>
-          <include name="launchApplication"/>
-          <include name="selectCountry"/>
-          <include name="submitForm"/>
-          <include name="selectGender"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- appium.com.testcases.FormPageTest -->
-      <class name="appium.com.testcases.HybridAppTest">
-        <methods>
-          <include name="switchBackToNative"/>
-          <include name="launchApplication"/>
-          <include name="switchContext"/>
-          <include name="setUp"/>
-          <include name="performActionOnWeb"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- appium.com.testcases.HybridAppTest -->
+      </class> <!-- appium.com.standAloneTest.EcommerceTest -->
     </classes>
-  </test> <!-- NativeApp(failed) -->
-  <test thread-count="5" name="Mobile Test(failed)">
-    <classes>
-      <class name="appium.com.testcases.mobileBrowser.CheckoutPageTest">
-        <methods>
-          <include name="placeOder"/>
-          <include name="setUp"/>
-          <include name="contineToOrder"/>
-          <include name="verifyTheProductInCheckout"/>
-          <include name="fillCheckoutDetails"/>
-          <include name="launchApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- appium.com.testcases.mobileBrowser.CheckoutPageTest -->
-      <class name="appium.com.testcases.mobileBrowser.LoginPageTest">
-        <methods>
-          <include name="login"/>
-          <include name="launchApplication"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- appium.com.testcases.mobileBrowser.LoginPageTest -->
-      <class name="appium.com.testcases.mobileBrowser.ProductCatalogPageTest">
-        <methods>
-          <include name="searchForProduct"/>
-          <include name="launchApplication"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- appium.com.testcases.mobileBrowser.ProductCatalogPageTest -->
-      <class name="appium.com.testcases.mobileBrowser.OrderConfirmationPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="verifyConfirmationMessage"/>
-          <include name="launchApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- appium.com.testcases.mobileBrowser.OrderConfirmationPageTest -->
-      <class name="appium.com.testcases.mobileBrowser.CartPageTest">
-        <methods>
-          <include name="verifyForProductInCart"/>
-          <include name="setUp"/>
-          <include name="launchApplication"/>
-          <include name="navigateToCheckoutPage"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- appium.com.testcases.mobileBrowser.CartPageTest -->
-      <class name="appium.com.testcases.mobileBrowser.PDPPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="addProductToCart"/>
-          <include name="navigateToCartPage"/>
-          <include name="verifyTheProductNameInPDP"/>
-          <include name="launchApplication"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- appium.com.testcases.mobileBrowser.PDPPageTest -->
-    </classes>
-  </test> <!-- Mobile Test(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -34,7 +34,8 @@ public class FormPage extends AndroidActions {
 	@AndroidFindBy(id = "com.androidsample.generalstore:id/btnLetsShop")
 	private WebElement submitBtn;
 
-	public void selectCountry(String countryName) {
+	public void selectCountry(String countryName) throws InterruptedException {
+		Thread.sleep(2000);
 		countryDropDown.click();
 		scrollToText(countryName);
 		driver.findElement(By.xpath("//android.widget.TextView[@text='" + countryName + "']")).click();

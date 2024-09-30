@@ -1,147 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-12T17:14:46 IST" name="Suite" finished-at="2024-08-12T17:15:30 IST" duration-ms="44333">
+  <suite started-at="2024-09-30T16:13:09 IST" name="Default suite" finished-at="2024-09-30T16:16:13 IST" duration-ms="183682">
     <groups>
     </groups>
-    <test started-at="2024-08-12T17:14:46 IST" name="Test" finished-at="2024-08-12T17:15:30 IST" duration-ms="44333">
-      <class name="appium.com.testcases.CatalogPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.CatalogPageTest@132ddbab]" started-at="2024-08-12T17:15:02 IST" name="setUp" finished-at="2024-08-12T17:15:02 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addItemToCart()[pri:1, instance:appium.com.testcases.CatalogPageTest@132ddbab]" started-at="2024-08-12T17:15:02 IST" name="addItemToCart" finished-at="2024-08-12T17:15:04 IST" duration-ms="2362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addItemToCart -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.CatalogPageTest@132ddbab]" started-at="2024-08-12T17:15:04 IST" name="setUp" finished-at="2024-08-12T17:15:04 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="goToCartPage()[pri:2, instance:appium.com.testcases.CatalogPageTest@132ddbab]" started-at="2024-08-12T17:15:04 IST" name="goToCartPage" finished-at="2024-08-12T17:15:07 IST" depends-on-methods="appium.com.testcases.CatalogPageTest.addItemToCart" duration-ms="3164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToCartPage -->
-      </class> <!-- appium.com.testcases.CatalogPageTest -->
-      <class name="appium.com.testcases.CartPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.CartPageTest@297ea53a]" started-at="2024-08-12T17:15:07 IST" name="setUp" finished-at="2024-08-12T17:15:08 IST" duration-ms="60" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTheCartForProduct()[pri:1, instance:appium.com.testcases.CartPageTest@297ea53a]" started-at="2024-08-12T17:15:08 IST" name="verifyTheCartForProduct" finished-at="2024-08-12T17:15:08 IST" duration-ms="218" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheCartForProduct -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.CartPageTest@297ea53a]" started-at="2024-08-12T17:15:08 IST" name="setUp" finished-at="2024-08-12T17:15:08 IST" duration-ms="23" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySumOfProductPrice()[pri:2, instance:appium.com.testcases.CartPageTest@297ea53a]" started-at="2024-08-12T17:15:08 IST" name="verifySumOfProductPrice" finished-at="2024-08-12T17:15:08 IST" depends-on-methods="appium.com.testcases.CartPageTest.verifyTheCartForProduct" duration-ms="157" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySumOfProductPrice -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.CartPageTest@297ea53a]" started-at="2024-08-12T17:15:08 IST" name="setUp" finished-at="2024-08-12T17:15:08 IST" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTheTotalAmountDisplayed()[pri:3, instance:appium.com.testcases.CartPageTest@297ea53a]" started-at="2024-08-12T17:15:08 IST" name="verifyTheTotalAmountDisplayed" finished-at="2024-08-12T17:15:08 IST" depends-on-methods="appium.com.testcases.CartPageTest.verifySumOfProductPrice" duration-ms="53" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheTotalAmountDisplayed -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.CartPageTest@297ea53a]" started-at="2024-08-12T17:15:08 IST" name="setUp" finished-at="2024-08-12T17:15:08 IST" duration-ms="27" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTermsAndConditions()[pri:4, instance:appium.com.testcases.CartPageTest@297ea53a]" started-at="2024-08-12T17:15:08 IST" name="verifyTermsAndConditions" finished-at="2024-08-12T17:15:12 IST" duration-ms="3721" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTermsAndConditions -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.CartPageTest@297ea53a]" started-at="2024-08-12T17:15:12 IST" name="setUp" finished-at="2024-08-12T17:15:12 IST" duration-ms="24" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="applyDiscount()[pri:5, instance:appium.com.testcases.CartPageTest@297ea53a]" started-at="2024-08-12T17:15:12 IST" name="applyDiscount" finished-at="2024-08-12T17:15:13 IST" duration-ms="698" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applyDiscount -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.CartPageTest@297ea53a]" started-at="2024-08-12T17:15:13 IST" name="setUp" finished-at="2024-08-12T17:15:13 IST" duration-ms="43" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="placeOrder()[pri:6, instance:appium.com.testcases.CartPageTest@297ea53a]" started-at="2024-08-12T17:15:13 IST" name="placeOrder" finished-at="2024-08-12T17:15:23 IST" duration-ms="10879" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- placeOrder -->
-      </class> <!-- appium.com.testcases.CartPageTest -->
-      <class name="appium.com.testcases.FormPageTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:appium.com.testcases.FormPageTest@107ed6fc]" started-at="2024-08-12T17:14:29 IST" name="launchApplication" finished-at="2024-08-12T17:14:46 IST" duration-ms="16628" status="PASS">
+    <test started-at="2024-09-30T16:13:09 IST" name="Default test" finished-at="2024-09-30T16:16:13 IST" duration-ms="183682">
+      <class name="appium.com.standAloneTest.EcommerceTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:appium.com.standAloneTest.EcommerceTest@dbd8e44]" started-at="2024-09-30T16:13:10 IST" name="launchApplication" finished-at="2024-09-30T16:13:47 IST" duration-ms="36986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.FormPageTest@107ed6fc]" started-at="2024-08-12T17:14:46 IST" name="setUp" finished-at="2024-08-12T17:14:47 IST" duration-ms="860" status="PASS">
+        <test-method signature="placeOrder(java.util.HashMap)[pri:0, instance:appium.com.standAloneTest.EcommerceTest@dbd8e44]" started-at="2024-09-30T16:13:47 IST" name="placeOrder" data-provider="getData" finished-at="2024-09-30T16:14:32 IST" duration-ms="45278" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{WebContext=WEBVIEW_com.androidsample.generalstore, Product1=Air Jordan 4 Retro, CountryName=Argentina, Product2=Air Jordan 1 Mid SE, NativeContext=NATIVE_APP, Gender=female, text=Valtech, Name=Gagana}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.appium.java_client.NoSuchContextException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: A new session could not be created. Details: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 127.0.6533.103 with package name com.androidsample.generalstore
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [fbc22716-bdd3-4ab4-b736-eb59b4d5a28a, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
+Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:databaseEnabled: false, appium:desired: {app: D:\APPIUM-AUTOMATION\Appium..., automationName: UIAutomator2, chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., deviceName: DeviceEmulator, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 15, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: fbc22716-bdd3-4ab4-b736-eb59b4d5a28a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.NoSuchContextException: An unknown server-side error occurred while processing the command. Original error: A new session could not be created. Details: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 127.0.6533.103 with package name com.androidsample.generalstore
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [fbc22716-bdd3-4ab4-b736-eb59b4d5a28a, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
+Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:databaseEnabled: false, appium:desired: {app: D:\APPIUM-AUTOMATION\Appium..., automationName: UIAutomator2, chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., deviceName: DeviceEmulator, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 15, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: fbc22716-bdd3-4ab4-b736-eb59b4d5a28a
+at io.appium.java_client.remote.SupportsContextSwitching.context(SupportsContextSwitching.java:48)
+at appium.com.pageObjectModels.HybridAppPage.switchContextToWeb(HybridAppPage.java:34)
+at appium.com.standAloneTest.EcommerceTest.placeOrder(EcommerceTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: A new session could not be created. Details: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 127.0.6533.103 with package name com.androidsample.generalstore
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [fbc22716-bdd3-4ab4-b736-eb59b4d5a28a, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
+Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:databaseEnabled: false, appium:desired: {app: D:\APPIUM-AUTOMATION\Appium..., automationName: UIAutomator2, chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., deviceName: DeviceEmulator, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 15, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: fbc22716-bdd3-4ab4-b736-eb59b4d5a28a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:305)
+at io.appium.java_client.remote.SupportsContextSwitching.context(SupportsContextSwitching.java:45)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.NoSuchContextException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="selectCountry()[pri:1, instance:appium.com.testcases.FormPageTest@107ed6fc]" started-at="2024-08-12T17:14:47 IST" name="selectCountry" finished-at="2024-08-12T17:14:58 IST" duration-ms="11718" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectCountry -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.FormPageTest@107ed6fc]" started-at="2024-08-12T17:14:58 IST" name="setUp" finished-at="2024-08-12T17:14:59 IST" duration-ms="97" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="setName()[pri:2, instance:appium.com.testcases.FormPageTest@107ed6fc]" started-at="2024-08-12T17:14:59 IST" name="setName" finished-at="2024-08-12T17:15:00 IST" duration-ms="983" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setName -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.FormPageTest@107ed6fc]" started-at="2024-08-12T17:15:00 IST" name="setUp" finished-at="2024-08-12T17:15:00 IST" duration-ms="49" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="selectGender()[pri:3, instance:appium.com.testcases.FormPageTest@107ed6fc]" started-at="2024-08-12T17:15:00 IST" name="selectGender" finished-at="2024-08-12T17:15:00 IST" duration-ms="272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectGender -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.FormPageTest@107ed6fc]" started-at="2024-08-12T17:15:00 IST" name="setUp" finished-at="2024-08-12T17:15:00 IST" duration-ms="100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="submitForm()[pri:4, instance:appium.com.testcases.FormPageTest@107ed6fc]" started-at="2024-08-12T17:15:00 IST" name="submitForm" finished-at="2024-08-12T17:15:02 IST" depends-on-methods="appium.com.testcases.FormPageTest.setName" duration-ms="1836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:appium.com.testcases.FormPageTest@107ed6fc]" started-at="2024-08-12T17:15:31 IST" name="tearDown" finished-at="2024-08-12T17:15:32 IST" duration-ms="980" status="PASS">
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:appium.com.standAloneTest.EcommerceTest@dbd8e44]" started-at="2024-09-30T16:14:32 IST" name="tearDown" finished-at="2024-09-30T16:14:33 IST" duration-ms="883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- appium.com.testcases.FormPageTest -->
-      <class name="appium.com.testcases.HybridAppTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.HybridAppTest@acb0951]" started-at="2024-08-12T17:15:23 IST" name="setUp" finished-at="2024-08-12T17:15:24 IST" duration-ms="61" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:appium.com.standAloneTest.EcommerceTest@dbd8e44]" started-at="2024-09-30T16:14:33 IST" name="launchApplication" finished-at="2024-09-30T16:14:46 IST" duration-ms="12471" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="switchContext()[pri:1, instance:appium.com.testcases.HybridAppTest@acb0951]" started-at="2024-08-12T17:15:24 IST" name="switchContext" finished-at="2024-08-12T17:15:26 IST" duration-ms="2304" status="PASS">
+        </test-method> <!-- launchApplication -->
+        <test-method signature="placeOrder(java.util.HashMap)[pri:0, instance:appium.com.standAloneTest.EcommerceTest@dbd8e44]" started-at="2024-09-30T16:14:46 IST" name="placeOrder" data-provider="getData" finished-at="2024-09-30T16:16:12 IST" duration-ms="86583" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{WebContext=WEBVIEW_com.androidsample.generalstore, Product1=Air Jordan 4 Retro, CountryName=India, Product2=Air Jordan 1 Mid SE, NativeContext=NATIVE_APP, Gender=male, text=Valtech, Name=Ram}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.appium.java_client.NoSuchContextException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: A new session could not be created. Details: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 127.0.6533.103 with package name com.androidsample.generalstore
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [cac7f63e-e8bc-43db-813a-419d49ae682a, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
+Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:databaseEnabled: false, appium:desired: {app: D:\APPIUM-AUTOMATION\Appium..., automationName: UIAutomator2, chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., deviceName: DeviceEmulator, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 15, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: cac7f63e-e8bc-43db-813a-419d49ae682a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.NoSuchContextException: An unknown server-side error occurred while processing the command. Original error: A new session could not be created. Details: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 127.0.6533.103 with package name com.androidsample.generalstore
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [cac7f63e-e8bc-43db-813a-419d49ae682a, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
+Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:databaseEnabled: false, appium:desired: {app: D:\APPIUM-AUTOMATION\Appium..., automationName: UIAutomator2, chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., deviceName: DeviceEmulator, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 15, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: cac7f63e-e8bc-43db-813a-419d49ae682a
+at io.appium.java_client.remote.SupportsContextSwitching.context(SupportsContextSwitching.java:48)
+at appium.com.pageObjectModels.HybridAppPage.switchContextToWeb(HybridAppPage.java:34)
+at appium.com.standAloneTest.EcommerceTest.placeOrder(EcommerceTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: A new session could not be created. Details: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 127.0.6533.103 with package name com.androidsample.generalstore
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [cac7f63e-e8bc-43db-813a-419d49ae682a, switchToContext {name=WEBVIEW_com.androidsample.generalstore}]
+Capabilities {appium:app: D:\APPIUM-AUTOMATION\Appium..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., appium:databaseEnabled: false, appium:desired: {app: D:\APPIUM-AUTOMATION\Appium..., automationName: UIAutomator2, chromedriverExecutable: D:\APPIUM-AUTOMATION\Appium..., deviceName: DeviceEmulator, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 15, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: cac7f63e-e8bc-43db-813a-419d49ae682a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:305)
+at io.appium.java_client.remote.SupportsContextSwitching.context(SupportsContextSwitching.java:45)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.NoSuchContextException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- switchContext -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.HybridAppTest@acb0951]" started-at="2024-08-12T17:15:26 IST" name="setUp" finished-at="2024-08-12T17:15:26 IST" duration-ms="24" status="PASS">
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:appium.com.standAloneTest.EcommerceTest@dbd8e44]" started-at="2024-09-30T16:16:12 IST" name="tearDown" finished-at="2024-09-30T16:16:13 IST" duration-ms="817" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="performActionOnWeb()[pri:2, instance:appium.com.testcases.HybridAppTest@acb0951]" started-at="2024-08-12T17:15:26 IST" name="performActionOnWeb" finished-at="2024-08-12T17:15:27 IST" depends-on-methods="appium.com.testcases.HybridAppTest.switchContext" duration-ms="1571" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- performActionOnWeb -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.com.testcases.HybridAppTest@acb0951]" started-at="2024-08-12T17:15:27 IST" name="setUp" finished-at="2024-08-12T17:15:27 IST" duration-ms="30" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="switchBackToNative()[pri:3, instance:appium.com.testcases.HybridAppTest@acb0951]" started-at="2024-08-12T17:15:27 IST" name="switchBackToNative" finished-at="2024-08-12T17:15:30 IST" depends-on-methods="appium.com.testcases.HybridAppTest.performActionOnWeb" duration-ms="2604" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- switchBackToNative -->
-      </class> <!-- appium.com.testcases.HybridAppTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- appium.com.standAloneTest.EcommerceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
